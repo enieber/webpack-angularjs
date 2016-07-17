@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "A boilerplate to kickstart development using Webpack, Gulp and AngularJS.",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/voidberg/webpack-angularjs.git"
+    "type": "git",
+    "url": "https://github.com/voidberg/webpack-angularjs.git"
   },
   "scripts": {
     "start": "gulp",
-    "build": "gulp build"
+    "build": "gulp build",
+    "lint": "eslint"
   },
   "author": "Alexandru Badiu <andu@ctrlz.ro>",
   "license": "MIT",
@@ -67,5 +68,12 @@
     "webpack": "^1.7.3",
     "webpack-dev-server": "^1.8.0",
     "eslint": "^0.21.0"
+  },
+  "dependencies": {
+    "angular-mocks": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "jquery": "^3.1.0",
+    "lodash": "^3.10.1",
+    "modernizr": "^3.3.1"
   }
 }
